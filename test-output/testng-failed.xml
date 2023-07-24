@@ -3,12 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qa.practiceTests.NaveenAutomationLabs">
+      <class name="com.qa.tests.HomePageTests">
         <methods>
-          <include name="ZooplaEx1"/>
-          <include name="first"/>
+          <include name="validate_HomePageTitle"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- com.qa.practiceTests.NaveenAutomationLabs -->
+      </class> <!-- com.qa.tests.HomePageTests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
